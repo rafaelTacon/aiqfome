@@ -18,7 +18,7 @@ Este é um projeto front-end desenvolvido com Next.js que simula a experiência 
 ### 1. Clone o repositório
 
 ```bash
-cd aiqfome-ticket
+cd aiqfome
 ```
 
 ### 2. Instale as dependências
