@@ -1,0 +1,6323 @@
+[
+  {
+    "id": "restaurante1",
+    "name": "Matsuri Concept",
+    "image": "/assets/images/matsuri.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "💬",
+    "rating": 4.1,
+    "isOpen": true,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "icon": true,
+        "products": [
+          {
+            "id": 1,
+            "title": "Ceviche de salmão",
+            "before": 15.5,
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante1",
+            "description": "Descrição do produto 1 - restaurante 1",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "max": 1,
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "originalPrice": 15.5,
+                    "price": 11.5
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              },
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "max": 1,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              },
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Produto 2",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante1",
+            "description": "Descrição do produto 2 - restaurante 1",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Vegano",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante1",
+            "description": "Descrição do produto 2 - restaurante 1",
+            "vegan": true,
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "icon": true,
+        "products": [
+          {
+            "id": 1,
+            "title": "Ceviche de salmão",
+            "before": 15.5,
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante1",
+            "description": "Descrição do produto 1 - restaurante 1",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "max": 1,
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "before": 15.5,
+                    "price": 11.5
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              },
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "max": 1,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              },
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "Produto Apimentado",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante1",
+            "description": "Descrição do produto 4 - restaurante 1",
+            "spicy": true,
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "sushi em forma de cone com salmão e cream cheese",
+        "products": [
+          {
+            "id": 5,
+            "title": "Produto 5 - Restaurante 1",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante1",
+            "description": "Descrição do produto 5 - restaurante 1",
+            "vegan": true,
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "title": "Produto 6 - Restaurante 1",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante1",
+            "description": "Descrição do produto 6 - restaurante 1",
+            "spicy": true,
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "products": [
+          {
+            "id": 7,
+            "title": "Produto 7 - Restaurante 1",
+            "price": 5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante1",
+            "description": "Descrição do produto 7 - restaurante 1",
+            "options": [
+              {
+                "title": "vai querer bebida?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "coca-cola"
+                  },
+                  {
+                    "label": "água sem gás"
+                  },
+                  {
+                    "label": "h2o",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "title": "Produto 8 - Restaurante 1",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante1",
+            "description": "Descrição do produto 8 - restaurante 1",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "products": [
+          {
+            "id": 9,
+            "title": "Produto 9 - Restaurante 1",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante1",
+            "description": "Descrição do produto 9 - restaurante 1",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "title": "Produto 10 - Restaurante 1",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante1",
+            "description": "Descrição do produto 10 - restaurante 1",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante2",
+    "name": "Subway - Avenida center",
+    "image": "/assets/images/subway.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.2,
+    "isOpen": false,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 11,
+            "title": "Produto 1 - Restaurante 2",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante2",
+            "description": "Descrição do produto 1 - restaurante 2",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "title": "Produto 2 - Restaurante 2",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante2",
+            "description": "Descrição do produto 2 - restaurante 2",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 13,
+            "title": "Produto 3 - Restaurante 2",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante2",
+            "description": "Descrição do produto 3 - restaurante 2",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "title": "Produto 4 - Restaurante 2",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante2",
+            "description": "Descrição do produto 4 - restaurante 2",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 15,
+            "title": "Produto 5 - Restaurante 2",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante2",
+            "description": "Descrição do produto 5 - restaurante 2",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "title": "Produto 6 - Restaurante 2",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante2",
+            "description": "Descrição do produto 6 - restaurante 2",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 17,
+            "title": "Produto 7 - Restaurante 2",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante2",
+            "description": "Descrição do produto 7 - restaurante 2",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "title": "Produto 8 - Restaurante 2",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante2",
+            "description": "Descrição do produto 8 - restaurante 2",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 19,
+            "title": "Produto 9 - Restaurante 2",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante2",
+            "description": "Descrição do produto 9 - restaurante 2",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "title": "Produto 10 - Restaurante 2",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante2",
+            "description": "Descrição do produto 10 - restaurante 2",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante3",
+    "name": "Burger King - Colombo",
+    "image": "/assets/images/bk.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "🚲",
+    "rating": 4.3,
+    "isOpen": true,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 21,
+            "title": "Produto 1 - Restaurante 3",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante3",
+            "description": "Descrição do produto 1 - restaurante 3",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "title": "Produto 2 - Restaurante 3",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante3",
+            "description": "Descrição do produto 2 - restaurante 3",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 23,
+            "title": "Produto 3 - Restaurante 3",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante3",
+            "description": "Descrição do produto 3 - restaurante 3",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "title": "Produto 4 - Restaurante 3",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante3",
+            "description": "Descrição do produto 4 - restaurante 3",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 25,
+            "title": "Produto 5 - Restaurante 3",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante3",
+            "description": "Descrição do produto 5 - restaurante 3",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "title": "Produto 6 - Restaurante 3",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante3",
+            "description": "Descrição do produto 6 - restaurante 3",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 27,
+            "title": "Produto 7 - Restaurante 3",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante3",
+            "description": "Descrição do produto 7 - restaurante 3",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "title": "Produto 8 - Restaurante 3",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante3",
+            "description": "Descrição do produto 8 - restaurante 3",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 29,
+            "title": "Produto 9 - Restaurante 3",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante3",
+            "description": "Descrição do produto 9 - restaurante 3",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "title": "Produto 10 - Restaurante 3",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante3",
+            "description": "Descrição do produto 10 - restaurante 3",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante4",
+    "name": "Burger King - Colombo",
+    "image": "/assets/images/bk.svg",
+    "freight": "grátis",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.4,
+    "isOpen": false,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 31,
+            "title": "Produto 1 - Restaurante 4",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante4",
+            "description": "Descrição do produto 1 - restaurante 4",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "title": "Produto 2 - Restaurante 4",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante4",
+            "description": "Descrição do produto 2 - restaurante 4",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 33,
+            "title": "Produto 3 - Restaurante 4",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante4",
+            "description": "Descrição do produto 3 - restaurante 4",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "title": "Produto 4 - Restaurante 4",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante4",
+            "description": "Descrição do produto 4 - restaurante 4",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 35,
+            "title": "Produto 5 - Restaurante 4",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante4",
+            "description": "Descrição do produto 5 - restaurante 4",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "title": "Produto 6 - Restaurante 4",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante4",
+            "description": "Descrição do produto 6 - restaurante 4",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 37,
+            "title": "Produto 7 - Restaurante 4",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante4",
+            "description": "Descrição do produto 7 - restaurante 4",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "title": "Produto 8 - Restaurante 4",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante4",
+            "description": "Descrição do produto 8 - restaurante 4",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 39,
+            "title": "Produto 9 - Restaurante 4",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante4",
+            "description": "Descrição do produto 9 - restaurante 4",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "title": "Produto 10 - Restaurante 4",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante4",
+            "description": "Descrição do produto 10 - restaurante 4",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante5",
+    "name": "McDonald’s - Novo Centro",
+    "image": "/assets/images/mc.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.5,
+    "isOpen": false,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 41,
+            "title": "Produto 1 - Restaurante 5",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante5",
+            "description": "Descrição do produto 1 - restaurante 5",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "title": "Produto 2 - Restaurante 5",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante5",
+            "description": "Descrição do produto 2 - restaurante 5",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 43,
+            "title": "Produto 3 - Restaurante 5",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante5",
+            "description": "Descrição do produto 3 - restaurante 5",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "title": "Produto 4 - Restaurante 5",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante5",
+            "description": "Descrição do produto 4 - restaurante 5",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 45,
+            "title": "Produto 5 - Restaurante 5",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante5",
+            "description": "Descrição do produto 5 - restaurante 5",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "title": "Produto 6 - Restaurante 5",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante5",
+            "description": "Descrição do produto 6 - restaurante 5",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 47,
+            "title": "Produto 7 - Restaurante 5",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante5",
+            "description": "Descrição do produto 7 - restaurante 5",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "title": "Produto 8 - Restaurante 5",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante5",
+            "description": "Descrição do produto 8 - restaurante 5",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 49,
+            "title": "Produto 9 - Restaurante 5",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante5",
+            "description": "Descrição do produto 9 - restaurante 5",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 50,
+            "title": "Produto 10 - Restaurante 5",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante5",
+            "description": "Descrição do produto 10 - restaurante 5",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante6",
+    "name": "Subway - Avenida center",
+    "image": "/assets/images/subway.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "🚲",
+    "rating": 4.6,
+    "isOpen": true,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 51,
+            "title": "Produto 1 - Restaurante 6",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante6",
+            "description": "Descrição do produto 1 - restaurante 6",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 52,
+            "title": "Produto 2 - Restaurante 6",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante6",
+            "description": "Descrição do produto 2 - restaurante 6",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 53,
+            "title": "Produto 3 - Restaurante 6",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante6",
+            "description": "Descrição do produto 3 - restaurante 6",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 54,
+            "title": "Produto 4 - Restaurante 6",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante6",
+            "description": "Descrição do produto 4 - restaurante 6",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 55,
+            "title": "Produto 5 - Restaurante 6",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante6",
+            "description": "Descrição do produto 5 - restaurante 6",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 56,
+            "title": "Produto 6 - Restaurante 6",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante6",
+            "description": "Descrição do produto 6 - restaurante 6",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 57,
+            "title": "Produto 7 - Restaurante 6",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante6",
+            "description": "Descrição do produto 7 - restaurante 6",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 58,
+            "title": "Produto 8 - Restaurante 6",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante6",
+            "description": "Descrição do produto 8 - restaurante 6",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 59,
+            "title": "Produto 9 - Restaurante 6",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante6",
+            "description": "Descrição do produto 9 - restaurante 6",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 60,
+            "title": "Produto 10 - Restaurante 6",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante6",
+            "description": "Descrição do produto 10 - restaurante 6",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante7",
+    "name": "Matsuri Concept",
+    "image": "/assets/images/matsuri.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "💬",
+    "rating": 4.7,
+    "isOpen": false,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 61,
+            "title": "Produto 1 - Restaurante 7",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante7",
+            "description": "Descrição do produto 1 - restaurante 7",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 62,
+            "title": "Produto 2 - Restaurante 7",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante7",
+            "description": "Descrição do produto 2 - restaurante 7",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 63,
+            "title": "Produto 3 - Restaurante 7",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante7",
+            "description": "Descrição do produto 3 - restaurante 7",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 64,
+            "title": "Produto 4 - Restaurante 7",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante7",
+            "description": "Descrição do produto 4 - restaurante 7",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 65,
+            "title": "Produto 5 - Restaurante 7",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante7",
+            "description": "Descrição do produto 5 - restaurante 7",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 66,
+            "title": "Produto 6 - Restaurante 7",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante7",
+            "description": "Descrição do produto 6 - restaurante 7",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 67,
+            "title": "Produto 7 - Restaurante 7",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante7",
+            "description": "Descrição do produto 7 - restaurante 7",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 68,
+            "title": "Produto 8 - Restaurante 7",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante7",
+            "description": "Descrição do produto 8 - restaurante 7",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 69,
+            "title": "Produto 9 - Restaurante 7",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante7",
+            "description": "Descrição do produto 9 - restaurante 7",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 70,
+            "title": "Produto 10 - Restaurante 7",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante7",
+            "description": "Descrição do produto 10 - restaurante 7",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante8",
+    "name": "McDonald’s - Novo Centro",
+    "image": "/assets/images/mc.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "💬",
+    "rating": 4.8,
+    "isOpen": false,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 71,
+            "title": "Produto 1 - Restaurante 8",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante8",
+            "description": "Descrição do produto 1 - restaurante 8",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 72,
+            "title": "Produto 2 - Restaurante 8",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante8",
+            "description": "Descrição do produto 2 - restaurante 8",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 73,
+            "title": "Produto 3 - Restaurante 8",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante8",
+            "description": "Descrição do produto 3 - restaurante 8",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 74,
+            "title": "Produto 4 - Restaurante 8",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante8",
+            "description": "Descrição do produto 4 - restaurante 8",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 75,
+            "title": "Produto 5 - Restaurante 8",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante8",
+            "description": "Descrição do produto 5 - restaurante 8",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 76,
+            "title": "Produto 6 - Restaurante 8",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante8",
+            "description": "Descrição do produto 6 - restaurante 8",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 77,
+            "title": "Produto 7 - Restaurante 8",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante8",
+            "description": "Descrição do produto 7 - restaurante 8",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 78,
+            "title": "Produto 8 - Restaurante 8",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante8",
+            "description": "Descrição do produto 8 - restaurante 8",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 79,
+            "title": "Produto 9 - Restaurante 8",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante8",
+            "description": "Descrição do produto 9 - restaurante 8",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 80,
+            "title": "Produto 10 - Restaurante 8",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante8",
+            "description": "Descrição do produto 10 - restaurante 8",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante9",
+    "name": "McDonald’s - Novo Centro",
+    "image": "/assets/images/mc.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "🚲",
+    "rating": 4.9,
+    "isOpen": true,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 81,
+            "title": "Produto 1 - Restaurante 9",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante9",
+            "description": "Descrição do produto 1 - restaurante 9",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 82,
+            "title": "Produto 2 - Restaurante 9",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante9",
+            "description": "Descrição do produto 2 - restaurante 9",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 83,
+            "title": "Produto 3 - Restaurante 9",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante9",
+            "description": "Descrição do produto 3 - restaurante 9",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 84,
+            "title": "Produto 4 - Restaurante 9",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante9",
+            "description": "Descrição do produto 4 - restaurante 9",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 85,
+            "title": "Produto 5 - Restaurante 9",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante9",
+            "description": "Descrição do produto 5 - restaurante 9",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 86,
+            "title": "Produto 6 - Restaurante 9",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante9",
+            "description": "Descrição do produto 6 - restaurante 9",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 87,
+            "title": "Produto 7 - Restaurante 9",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante9",
+            "description": "Descrição do produto 7 - restaurante 9",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 88,
+            "title": "Produto 8 - Restaurante 9",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante9",
+            "description": "Descrição do produto 8 - restaurante 9",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 89,
+            "title": "Produto 9 - Restaurante 9",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante9",
+            "description": "Descrição do produto 9 - restaurante 9",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 90,
+            "title": "Produto 10 - Restaurante 9",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante9",
+            "description": "Descrição do produto 10 - restaurante 9",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante10",
+    "name": "Burger King - Colombo",
+    "image": "/assets/images/bk.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.0,
+    "isOpen": false,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 91,
+            "title": "Produto 1 - Restaurante 10",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante10",
+            "description": "Descrição do produto 1 - restaurante 10",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 92,
+            "title": "Produto 2 - Restaurante 10",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante10",
+            "description": "Descrição do produto 2 - restaurante 10",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 93,
+            "title": "Produto 3 - Restaurante 10",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante10",
+            "description": "Descrição do produto 3 - restaurante 10",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 94,
+            "title": "Produto 4 - Restaurante 10",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante10",
+            "description": "Descrição do produto 4 - restaurante 10",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 95,
+            "title": "Produto 5 - Restaurante 10",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante10",
+            "description": "Descrição do produto 5 - restaurante 10",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 96,
+            "title": "Produto 6 - Restaurante 10",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante10",
+            "description": "Descrição do produto 6 - restaurante 10",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 97,
+            "title": "Produto 7 - Restaurante 10",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante10",
+            "description": "Descrição do produto 7 - restaurante 10",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 98,
+            "title": "Produto 8 - Restaurante 10",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante10",
+            "description": "Descrição do produto 8 - restaurante 10",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 99,
+            "title": "Produto 9 - Restaurante 10",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante10",
+            "description": "Descrição do produto 9 - restaurante 10",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 100,
+            "title": "Produto 10 - Restaurante 10",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante10",
+            "description": "Descrição do produto 10 - restaurante 10",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante11",
+    "name": "Subway - Avenida center",
+    "image": "/assets/images/subway.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.1,
+    "isOpen": false,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 101,
+            "title": "Produto 1 - Restaurante 11",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante11",
+            "description": "Descrição do produto 1 - restaurante 11",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 102,
+            "title": "Produto 2 - Restaurante 11",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante11",
+            "description": "Descrição do produto 2 - restaurante 11",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 103,
+            "title": "Produto 3 - Restaurante 11",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante11",
+            "description": "Descrição do produto 3 - restaurante 11",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 104,
+            "title": "Produto 4 - Restaurante 11",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante11",
+            "description": "Descrição do produto 4 - restaurante 11",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 105,
+            "title": "Produto 5 - Restaurante 11",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante11",
+            "description": "Descrição do produto 5 - restaurante 11",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 106,
+            "title": "Produto 6 - Restaurante 11",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante11",
+            "description": "Descrição do produto 6 - restaurante 11",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 107,
+            "title": "Produto 7 - Restaurante 11",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante11",
+            "description": "Descrição do produto 7 - restaurante 11",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 108,
+            "title": "Produto 8 - Restaurante 11",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante11",
+            "description": "Descrição do produto 8 - restaurante 11",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 109,
+            "title": "Produto 9 - Restaurante 11",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante11",
+            "description": "Descrição do produto 9 - restaurante 11",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 110,
+            "title": "Produto 10 - Restaurante 11",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante11",
+            "description": "Descrição do produto 10 - restaurante 11",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante12",
+    "name": "Matsuri Concept",
+    "image": "/assets/images/matsuri.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "🚲",
+    "rating": 4.2,
+    "isOpen": true,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 111,
+            "title": "Produto 1 - Restaurante 12",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante12",
+            "description": "Descrição do produto 1 - restaurante 12",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 112,
+            "title": "Produto 2 - Restaurante 12",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante12",
+            "description": "Descrição do produto 2 - restaurante 12",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 113,
+            "title": "Produto 3 - Restaurante 12",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante12",
+            "description": "Descrição do produto 3 - restaurante 12",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 114,
+            "title": "Produto 4 - Restaurante 12",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante12",
+            "description": "Descrição do produto 4 - restaurante 12",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 115,
+            "title": "Produto 5 - Restaurante 12",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante12",
+            "description": "Descrição do produto 5 - restaurante 12",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 116,
+            "title": "Produto 6 - Restaurante 12",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante12",
+            "description": "Descrição do produto 6 - restaurante 12",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 117,
+            "title": "Produto 7 - Restaurante 12",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante12",
+            "description": "Descrição do produto 7 - restaurante 12",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 118,
+            "title": "Produto 8 - Restaurante 12",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante12",
+            "description": "Descrição do produto 8 - restaurante 12",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 119,
+            "title": "Produto 9 - Restaurante 12",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante12",
+            "description": "Descrição do produto 9 - restaurante 12",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 120,
+            "title": "Produto 10 - Restaurante 12",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante12",
+            "description": "Descrição do produto 10 - restaurante 12",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante13",
+    "name": "Burger King - Colombo",
+    "image": "/assets/images/bk.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.3,
+    "isOpen": false,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 121,
+            "title": "Produto 1 - Restaurante 13",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante13",
+            "description": "Descrição do produto 1 - restaurante 13",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 122,
+            "title": "Produto 2 - Restaurante 13",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante13",
+            "description": "Descrição do produto 2 - restaurante 13",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 123,
+            "title": "Produto 3 - Restaurante 13",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante13",
+            "description": "Descrição do produto 3 - restaurante 13",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 124,
+            "title": "Produto 4 - Restaurante 13",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante13",
+            "description": "Descrição do produto 4 - restaurante 13",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 125,
+            "title": "Produto 5 - Restaurante 13",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante13",
+            "description": "Descrição do produto 5 - restaurante 13",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 126,
+            "title": "Produto 6 - Restaurante 13",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante13",
+            "description": "Descrição do produto 6 - restaurante 13",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 127,
+            "title": "Produto 7 - Restaurante 13",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante13",
+            "description": "Descrição do produto 7 - restaurante 13",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 128,
+            "title": "Produto 8 - Restaurante 13",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante13",
+            "description": "Descrição do produto 8 - restaurante 13",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 129,
+            "title": "Produto 9 - Restaurante 13",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante13",
+            "description": "Descrição do produto 9 - restaurante 13",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 130,
+            "title": "Produto 10 - Restaurante 13",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante13",
+            "description": "Descrição do produto 10 - restaurante 13",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante14",
+    "name": "McDonald’s - Novo Centro",
+    "image": "/assets/images/mc.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.4,
+    "isOpen": false,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 131,
+            "title": "Produto 1 - Restaurante 14",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante14",
+            "description": "Descrição do produto 1 - restaurante 14",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 132,
+            "title": "Produto 2 - Restaurante 14",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante14",
+            "description": "Descrição do produto 2 - restaurante 14",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 133,
+            "title": "Produto 3 - Restaurante 14",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante14",
+            "description": "Descrição do produto 3 - restaurante 14",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 134,
+            "title": "Produto 4 - Restaurante 14",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante14",
+            "description": "Descrição do produto 4 - restaurante 14",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 135,
+            "title": "Produto 5 - Restaurante 14",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante14",
+            "description": "Descrição do produto 5 - restaurante 14",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 136,
+            "title": "Produto 6 - Restaurante 14",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante14",
+            "description": "Descrição do produto 6 - restaurante 14",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 137,
+            "title": "Produto 7 - Restaurante 14",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante14",
+            "description": "Descrição do produto 7 - restaurante 14",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 138,
+            "title": "Produto 8 - Restaurante 14",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante14",
+            "description": "Descrição do produto 8 - restaurante 14",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 139,
+            "title": "Produto 9 - Restaurante 14",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante14",
+            "description": "Descrição do produto 9 - restaurante 14",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 140,
+            "title": "Produto 10 - Restaurante 14",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante14",
+            "description": "Descrição do produto 10 - restaurante 14",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  },
+  {
+    "id": "restaurante15",
+    "name": "Burger King - Colombo",
+    "image": "/assets/images/bk.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "🚲",
+    "rating": 4.5,
+    "isOpen": true,
+    "menu": [
+      {
+        "title": "Niguiris",
+        "description": "Categoria niguiris do restaurante",
+        "products": [
+          {
+            "id": 141,
+            "title": "Produto 1 - Restaurante 15",
+            "price": 11.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante15",
+            "description": "Descrição do produto 1 - restaurante 15",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 142,
+            "title": "Produto 2 - Restaurante 15",
+            "price": 13.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante15",
+            "description": "Descrição do produto 2 - restaurante 15",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ceviches",
+        "description": "Categoria ceviches do restaurante",
+        "products": [
+          {
+            "id": 143,
+            "title": "Produto 3 - Restaurante 15",
+            "price": 14.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante15",
+            "description": "Descrição do produto 3 - restaurante 15",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 144,
+            "title": "Produto 4 - Restaurante 15",
+            "price": 16.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante15",
+            "description": "Descrição do produto 4 - restaurante 15",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Temakis",
+        "description": "Categoria temakis do restaurante",
+        "products": [
+          {
+            "id": 145,
+            "title": "Produto 5 - Restaurante 15",
+            "price": 17.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante15",
+            "description": "Descrição do produto 5 - restaurante 15",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 146,
+            "title": "Produto 6 - Restaurante 15",
+            "price": 19.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.2,
+            "category": "restaurante15",
+            "description": "Descrição do produto 6 - restaurante 15",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bebidas",
+        "description": "Categoria bebidas do restaurante",
+        "products": [
+          {
+            "id": 147,
+            "title": "Produto 7 - Restaurante 15",
+            "price": 20.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.4,
+            "category": "restaurante15",
+            "description": "Descrição do produto 7 - restaurante 15",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 148,
+            "title": "Produto 8 - Restaurante 15",
+            "price": 22.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.6,
+            "category": "restaurante15",
+            "description": "Descrição do produto 8 - restaurante 15",
+            "options": [
+              {
+                "title": "precisa de talher?",
+                "type": "single",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "hashi"
+                  },
+                  {
+                    "label": "garfo e faca descartável",
+                    "price": 1.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas",
+        "description": "Categoria sobremesas do restaurante",
+        "products": [
+          {
+            "id": 149,
+            "title": "Produto 9 - Restaurante 15",
+            "price": 23.5,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.8,
+            "category": "restaurante15",
+            "description": "Descrição do produto 9 - restaurante 15",
+            "options": [
+              {
+                "title": "mais alguma coisa?",
+                "type": "multiple",
+                "required": false,
+                "choices": [
+                  {
+                    "label": "biscoito da sorte",
+                    "price": 2.0
+                  },
+                  {
+                    "label": "rolinho primavera",
+                    "price": 4.0
+                  },
+                  {
+                    "label": "guioza",
+                    "price": 6.0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 150,
+            "title": "Produto 10 - Restaurante 15",
+            "price": 25.0,
+            "image": "/assets/images/ceviche.svg",
+            "review": 4.0,
+            "category": "restaurante15",
+            "description": "Descrição do produto 10 - restaurante 15",
+            "options": [
+              {
+                "title": "qual o tamanho?",
+                "type": "single",
+                "required": true,
+                "choices": [
+                  {
+                    "label": "médio",
+                    "price": 19.9,
+                    "originalPrice": 22.9
+                  },
+                  {
+                    "label": "grande",
+                    "price": 28.9
+                  }
+                ]
+              },
+              {
+                "title": "acompanhamentos",
+                "type": "multiple",
+                "required": true,
+                "min": 1,
+                "max": 2,
+                "choices": [
+                  {
+                    "label": "shoyu"
+                  },
+                  {
+                    "label": "gengibre"
+                  },
+                  {
+                    "label": "wasabi"
+                  },
+                  {
+                    "label": "sem acompanhamentos"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "drinkOptions": {
+      "title": "vai querer bebida?",
+      "type": "multiple",
+      "required": false,
+      "choices": [
+        {
+          "label": "coca-cola",
+          "price": 5.0
+        },
+        {
+          "label": "fanta laranja",
+          "price": 5.0
+        },
+        {
+          "label": "guaraná antarctica",
+          "price": 5.0
+        },
+        {
+          "label": "suco preta laranja",
+          "price": 6.0
+        },
+        {
+          "label": "água sem gás",
+          "price": 2.0
+        }
+      ]
+    }
+  }
+]

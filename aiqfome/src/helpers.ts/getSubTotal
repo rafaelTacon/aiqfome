@@ -1,0 +1,12 @@
+export interface TicketItem {
+  quantity: number;
+  totalUnitValue: number;
+}
+
+export function getSubtotal(items: TicketItem[]): number {
+  return items.reduce((acc, item) => {
+    const unit = item.totalUnitValue || 0;
+    const qtd = item.quantity || 1;
+    return acc + unit * qtd;
+  }, 0);
+}

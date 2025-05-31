@@ -1,0 +1,152 @@
+[
+  {
+    "id": "restaurante1",
+    "name": "Matsuri Concept",
+    "image": "/assets/images/matsuri.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "💬",
+    "rating": 4.1,
+    "isOpen": true
+  },
+  {
+    "id": "restaurante3",
+    "name": "Burger King - Colombo",
+    "image": "/assets/images/bk.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "🚲",
+    "rating": 4.3,
+    "isOpen": true
+  },
+  {
+    "id": "restaurante6",
+    "name": "Subway - Avenida center",
+    "image": "/assets/images/subway.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "🚲",
+    "rating": 4.6,
+    "isOpen": true
+  },
+  {
+    "id": "restaurante9",
+    "name": "McDonald’s - Novo Centro",
+    "image": "/assets/images/mc.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "🚲",
+    "rating": 4.9,
+    "isOpen": true
+  },
+  {
+    "id": "restaurante12",
+    "name": "Matsuri Concept",
+    "image": "/assets/images/matsuri.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "🚲",
+    "rating": 4.2,
+    "isOpen": true
+  },
+  {
+    "id": "restaurante15",
+    "name": "Burger King - Colombo",
+    "image": "/assets/images/bk.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "🚲",
+    "rating": 4.5,
+    "isOpen": true
+  },
+  {
+    "id": "restaurante2",
+    "name": "Subway - Avenida center",
+    "image": "/assets/images/subway.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.2,
+    "isOpen": false
+  },
+  {
+    "id": "restaurante4",
+    "name": "Burger King - Colombo",
+    "image": "/assets/images/bk.svg",
+    "freight": "grátis",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.4,
+    "isOpen": false
+  },
+  {
+    "id": "restaurante5",
+    "name": "McDonald’s - Novo Centro",
+    "image": "/assets/images/mc.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.5,
+    "isOpen": false
+  },
+  {
+    "id": "restaurante7",
+    "name": "Matsuri Concept",
+    "image": "/assets/images/matsuri.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "💬",
+    "rating": 4.7,
+    "isOpen": false
+  },
+  {
+    "id": "restaurante8",
+    "name": "McDonald’s - Novo Centro",
+    "image": "/assets/images/mc.svg",
+    "freight": "grátis",
+    "freightColor": "text-emerald-800",
+    "freightIcon": "💬",
+    "rating": 4.8,
+    "isOpen": false
+  },
+  {
+    "id": "restaurante10",
+    "name": "Burger King - Colombo",
+    "image": "/assets/images/bk.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.0,
+    "isOpen": false
+  },
+  {
+    "id": "restaurante11",
+    "name": "Subway - Avenida center",
+    "image": "/assets/images/subway.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.1,
+    "isOpen": false
+  },
+  {
+    "id": "restaurante13",
+    "name": "Burger King - Colombo",
+    "image": "/assets/images/bk.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.3,
+    "isOpen": false
+  },
+  {
+    "id": "restaurante14",
+    "name": "McDonald’s - Novo Centro",
+    "image": "/assets/images/mc.svg",
+    "freight": "R$6,00",
+    "freightColor": "text-purple-600",
+    "freightIcon": "💬",
+    "rating": 4.4,
+    "isOpen": false
+  }
+]
